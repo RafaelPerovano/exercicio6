@@ -3,37 +3,77 @@
 body{
     background-color: #ffffff;
 }
+
 header, footer{
     background-color: #cf6915;
 }
+
 h1{
     font-family: "Pirata One", system-ui;
     font-weight: 400;
     font-style: normal;
 }
+
 a{
     color: #ffee00ff;
 }
+
 table, td, th{
     border: 1px solid black;
 }
+
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table td img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+table tr:hover {
+    background-color: #cf6915;
+}
+
 table{
     border-collapse: collapse;
-    width: 100%;
-    height: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin: auto;
 }
+
 th{
     height: 70px;
 }
+
 .container{
     background-color: #865203;
     width: 960px;
     margin: auto;
 }
+
 .a{
     text-decoration: none;
 }
+
 #imagem{
     width: 960px;
     height: auto;
 }
+
+input[type="text"], textarea {
+    width: 100%;             
+    padding: 10px;            
+    margin-bottom: 15px;      
+    border: 1px solid #cf6915;   
+    box-sizing: border-box;   
+}
+  
+input[type="text"]:focus, textarea:focus {
+    background-color: #cf6915; 
+    outline: none;           
+}
+  
